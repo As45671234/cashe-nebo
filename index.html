@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VASHE-NEBO - Натяжные потолки в Астане</title>
+    <!-- Шрифты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Иконки -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <!-- Стили -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Хедер (Белый фон) -->
+    <header class="header">
+        <div class="container header__container">
+            <a href="#" class="logo">
+                <span style="color:#111;">VASHE-NEBO</span>
+            </a>
+            
+            <nav class="nav">
+                <a href="#hero" class="nav__link">О нас</a>
+                <a href="#services" class="nav__link">Галерея</a>
+                <a href="#contacts" class="nav__link">Контакты</a>
+            </nav>
+
+            <div class="header__contact">
+                <a href="tel:+77057773037" class="header__phone">
+                    <i class="ph ph-phone"></i> +7 705 777 3037
+                </a>
+                <a href="https://wa.me/77057773037" class="btn btn--primary" target="_blank">Консультация</a>
+            </div>
+            
+            <!-- Мобильное меню (гамбургер) -->
+            <button class="burger" aria-label="Открыть меню">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero секция (Темный фон) -->
+        <section class="hero" id = "hero">
+            <div class="container hero__content">
+                <h1 class="hero__title">
+                    Спасибо за обращение в <span class="text-yellow">VASHE-NEBO</span>!
+                </h1>
+                <p class="hero__subtitle">
+                    Чем мы можем вам помочь?<br>
+                    Наша фирма занимается продажей комплектующих, а также установкой материала для натяжных потолков.
+                </p>
+            </div>
+        </section>
+
+
+        <!-- Секция карточек (Темный фон) -->
+        <section class="catalog" id="services">
+            <div class="container">
+                <div class="grid-catalog">
+                    <!-- Карточка 1 -->
+                    <article class="card" style="background-image: url('images/WhatsApp Image 2026-01-29 at 12.47.37.jpeg');">
+                        <div class="card__overlay"></div>
+                        <div class="card__content">
+                            <div class="card__header">
+                                <h3 class="card__title">Современный теневой потолок</h3>
+                            </div>
+                            <div class="card__desc">Эстетичное решение для стильного интерьера.</div>
+                        </div>
+                    </article>
+
+                    <!-- Карточка 2 -->
+                    <article class="card" style="background-image: url('images/WhatsApp Image 2026-01-29 at 12.51.23.jpeg');">
+                        <div class="card__overlay"></div>
+                        <div class="card__content">
+                            <div class="card__header">
+                                <h3 class="card__title">Парящий потолок</h3>
+                            </div>
+                            <div class="card__desc">Лёгкость и визуальное расширение пространства.</div>
+                        </div>
+                    </article>
+
+                    <!-- Карточка 3 -->
+                    <article class="card" style="background-image: url('images/WhatsApp Image 2026-01-29 at 12.51.231.jpeg');">
+                        <div class="card__overlay"></div>
+                        <div class="card__content">
+                            <div class="card__header">
+                                <h3 class="card__title">Потолок с подсветкой</h3>
+                            </div>
+                            <div class="card__desc">Мягкое освещение для уюта и акцентов.</div>
+                        </div>
+                    </article>
+
+                    <!-- Карточка 4 -->
+                    <article class="card" style="background-image: url('images/WhatsApp Image 2026-01-29 at 12.51.24.jpeg');">
+                        <div class="card__overlay"></div>
+                        <div class="card__content">
+                            <div class="card__header">
+                                <h3 class="card__title">Классический потолок</h3>
+                            </div>
+                            <div class="card__desc">Надёжное и практичное решение для любого помещения.</div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция Контакты (Белый фон) -->
+        <section class="contacts-white" id="contacts">
+            <div class="container">
+                <div class="section-header-center">
+                    <h2 class="section-title text-dark">Наши <span class="text-yellow-underline">контакты</span></h2>
+                    <p class="section-subtitle text-gray">Свяжитесь с нами любым удобным способом. Ответим на все вопросы!</p>
+                </div>
+
+                <div class="contacts-grid">
+                    <!-- Левая колонка: Инфо -->
+                    <div class="contacts-info">
+                        <h3 class="contacts-subtitle text-dark">Контактная информация</h3>
+                        
+                        <div class="info-card">
+                            <div class="info-icon"><i class="ph ph-map-pin"></i></div>
+                            <div>
+                                <h4 class="info-title">Адрес</h4>
+                                <p class="info-text">г. Астана, ул. Кайрат Рыскулбеков, 16, цокольный этаж</p>
+                                <span class="info-note">Алматы район, Астана</span>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon"><i class="ph ph-phone"></i></div>
+                            <div>
+                                <h4 class="info-title">Телефон</h4>
+                                <p class="info-text font-bold">+7 705 777 3037</p>
+                                <span class="info-note">Круглосуточно</span>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon"><i class="ph ph-envelope-simple"></i></div>
+                            <div>
+                                <h4 class="info-title">Email</h4>
+                                <p class="info-text">info@vashe-nebo.kz</p>
+                                <span class="info-note">Ответим в течение 2 часов</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Правая колонка: Соцсети -->
+                    <div class="contacts-socials">
+                        <h3 class="contacts-subtitle text-dark">Мы в социальных сетях</h3>
+                        <p class="socials-desc text-gray">Подписывайтесь на наши соцсети и будьте в курсе акций и новостей</p>
+                        
+                        <div class="socials-grid">
+                            <a href="https://wa.me/77057773037" class="social-btn"><i class="ph ph-whatsapp-logo text-green"></i> WhatsApp</a>
+                            <a href="https://instagram.com/" class="social-btn"><i class="ph ph-instagram-logo text-purple"></i> Instagram</a>
+                        </div>
+
+                        <h3 class="contacts-subtitle text-dark mt-large">Мы на карте</h3>
+                        <a href="https://2gis.kz/astana/firm/70000001019626821?m=71.516403,51.151857/12.15" target="_blank" class="map-placeholder map-link" style="text-decoration: none; color: inherit;">
+                            <i class="ph ph-map-pin text-yellow" style="font-size: 48px;"></i>
+                            <p class="mt-small text-gray">г. Астана, ул. Кайрат Рыскулбеков, 16, цокольный этаж</p>
+                            <span style="display:block; color:#1d8cff; margin-top:8px;">Смотреть на 2ГИС</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Футер (Темный фон) -->
+    <footer class="footer">
+        <div class="container footer__grid">
+            
+            <!-- Колонка 1: Бренд -->
+            <div class="footer__col">
+                <a href="#" class="logo text-white">
+                    <span class="text-yellow">VASHE-NEBO</span>
+                </a>
+                <div class="footer__desc">
+                    <p>Профессиональный монтаж натяжных потолков в Астане.</p>
+                    <p>Качество, гарантия, индивидуальный подход к каждому клиенту.</p>
+                </div>
+                <div class="footer__socials">
+                    <a href="https://wa.me/77057773037"><i class="ph ph-whatsapp-logo"></i></a>
+                    <a href="https://instagram.com/"><i class="ph ph-instagram-logo"></i></a>
+                </div>
+            </div>
+
+            <!-- Колонка 2: Навигация -->
+            <div class="footer__col">
+                <h4 class="footer__title">Навигация</h4>
+                <ul class="footer__links">
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">Галерея</a></li>
+                    <li><a href="#">Калькулятор</a></li>
+                    <li><a href="#">Гарантии</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+
+            <!-- Колонка 3: Контакты -->
+            <div class="footer__col">
+                <h4 class="footer__title">Контакты</h4>
+                <ul class="footer__contacts">
+                    <li><i class="ph ph-phone text-yellow"></i> +7 705 777 3037</li>
+                    <li><i class="ph ph-envelope text-yellow"></i> info@vashe-nebo.kz</li>
+                    <li><i class="ph ph-map-pin text-yellow"></i> г. Астана, ул. Кайрат Рыскулбеков, 16, цокольный этаж</li>
+                    <li><i class="ph ph-clock text-yellow"></i> Круглосуточно</li>
+                </ul>
+            </div>
+
+            <!-- Колонка 4: CTA -->
+            <div class="footer__col">
+                <h4 class="footer__title">Бесплатный замер</h4>
+                <p class="footer__text">Оставьте заявку прямо сейчас и получите бесплатный замер и консультацию специалиста</p>
+                <a href="https://wa.me/77057773037" class="btn btn--primary footer__btn" target="_blank">Консультация</a>
+            </div>
+        </div>
+
+        <div class="footer__bottom container">
+            <p>© 2026 VASHE-NEBO. Все права защищены.</p>
+            <div class="dev-credits">
+                Разработано с <span style="color: #ff4d4d;">♥</span> для вашего комфорта
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
